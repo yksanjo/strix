@@ -1,0 +1,35 @@
+{
+  "name": "strix",
+  "version": "1.0.0",
+  "description": "Security Recon in 60 seconds - Autonomous Recon Agent Platform",
+  "main": "src/index.js",
+  "bin": {
+    "strix": "./bin/strix.js"
+  },
+  "scripts": {
+    "start": "node bin/strix.js",
+    "recon": "node bin/strix.js recon",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "security",
+    "reconnaissance",
+    "pentest",
+    "vulnerability",
+    "soar",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "pdfkit": "^0.14.0",
+    "axios": "^1.6.2",
+    "dns-socket": "^4.2.2",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
